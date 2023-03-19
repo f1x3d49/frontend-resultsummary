@@ -3,24 +3,28 @@
     "category": "Reaction",
     "score": 80,
     "icon": "./assets/images/icon-reaction.svg",
+    "longValue": "red",
     "key": 1
   },
   {
     "category": "Memory",
     "score": 92,
     "icon": "./assets/images/icon-memory.svg",
+    "longValue": "yellow",
     "key": 2
   },
   {
     "category": "Verbal",
     "score": 61,
     "icon": "./assets/images/icon-verbal.svg",
+    "longValue": "green",
     "key": 3
   },
   {
     "category": "Visual",
     "score": 72,
     "icon": "./assets/images/icon-visual.svg",
+    "longValue": "blue",
     "key": 4
   }
 ]
