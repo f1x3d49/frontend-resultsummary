@@ -1,5 +1,5 @@
 import ColoredData from "./Colored_Data";
-import items from "./data.json";
+import { items } from "./data.js";
 
 function App() {
   // eslint-disable-next-line no-lone-blocks
@@ -10,7 +10,7 @@ function App() {
           <div className="w-1/2 h-full bg-lroyal-blue rounded-2xl"></div>
           <div className="flex flex-col ml-6 my-5">
             <h1 className="font-main">Summary</h1>
-            <div className="flex flex-col mt-5 gap-3">
+            <div className="flex font-main flex-col mt-5 gap-3">
               {items.map((item) => {
                 return (
                   <ColoredData
@@ -19,6 +19,7 @@ function App() {
                     score={item.score}
                     key={item.key}
                     colour={item.longValue}
+                    text={item.text}
                   />
                 );
               })}

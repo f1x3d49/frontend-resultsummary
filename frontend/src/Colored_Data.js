@@ -1,7 +1,8 @@
 import React from "react";
 import { Styleddiv } from "./components/styledDiv";
+import { Name } from "./components/customHeader";
 
-const ColoredData = ({ category, score, icon, colour }) => {
+const ColoredData = ({ category, score, icon, colour, text }) => {
   return (
     <Styleddiv
       longValue={colour}
@@ -9,7 +10,7 @@ const ColoredData = ({ category, score, icon, colour }) => {
     >
       <div className="flex gap-2">
         <img src={icon} alt="icon" />
-        <h1>{category}</h1>
+        <Name TColor={text}>{category}</Name>
       </div>
       <p>
         <b>{score}</b> / 100
