@@ -19,7 +19,11 @@ module.exports = {
     fontFamily: {
       main: ["Hanken Grotesk"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+      },
+    },
   },
   plugins: [],
 };

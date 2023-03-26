@@ -12,8 +12,8 @@ const ColoredData = ({ category, score, icon, colour, text }) => {
         <img src={icon} alt="icon" />
         <Name TColor={text}>{category}</Name>
       </div>
-      <p>
-        <b>{score}</b> / 100
+      <p className="text-base font-thin text-[#a0a0a0]">
+        <span className="font-bold text-dgray-blue">{score}</span> / 100
       </p>
     </Styleddiv>
   );

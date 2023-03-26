@@ -25,7 +25,7 @@ export const items = [
     score: 61,
     icon: icon3,
     longValue: "green",
-    text: "yellow",
+    text: "green",
     key: 3,
   },
   {
@@ -33,7 +33,7 @@ export const items = [
     score: 72,
     icon: icon4,
     longValue: "blue",
-    text: "yellow",
+    text: "blue",
     key: 4,
   },
 ];
