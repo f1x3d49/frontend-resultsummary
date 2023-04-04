@@ -11,16 +11,18 @@ function App() {
         <div className="flex h-1/2 w-2/6 bg-white rounded-2xl shadow-lg">
           {/* The first part */}
           <div className="flex flex-col items-center justify-start gap-5 w-1/2 h-full from-lslate-blue to-lroyal-blue bg-gradient-to-b rounded-2xl font-main">
-            <h1 className="mt-5 text-xl text-pale-blue">Your Result</h1>
+            <h1 className="mt-5 text-xl text-light-lavender">Your Result</h1>
             <div className="bg-circle flex flex-col items-center justify-center rounded-full w-36 h-36">
               <h1 className="text-5xl text-white">76</h1>
-              <p className="text-sm text-pale-blue">of 100</p>
+              <p className="font-bold text-light-lavender text-sm">of 100</p>
             </div>
-            <h1 className="text-xl text-white">Great</h1>
-            <p className="text-[14px] text-pale-blue text-center ">
-              You scored higher than 65% of the people who have taken these
-              tests.
-            </p>
+            <div className="flex flex-col items-center justify-center">
+              <h1 className="text-xl text-white">Great</h1>
+              <p className="text-[14px] text-light-lavender text-center ">
+                You scored higher than 65% of the people who have taken these
+                tests.
+              </p>
+            </div>
           </div>
           {/* The second part */}
           <div className="flex flex-col ml-6 my-5">
